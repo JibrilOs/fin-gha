@@ -1,0 +1,105 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/*MAKES IT POSSBILE TO DETERMINE THE WIDTH AND HEIGHT OF THE CONTENT PLUS THE WIDTH AND HEIGHT OF ITEMS*/
+}
+
+html {
+	background: #fff;
+	color: #555;
+	font-family: "lato", "arial", "san-serif";
+	font-size: 20px;
+	font-weight: 300;
+	text-rendering: optimizeLegibility;
+
+
+}
+
+.row {
+	max-width: 1140px;
+	/*makes all the items center*/
+	margin: 0 auto;
+}
+
+header {
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	background-attachment: fixed;
+
+}
+
+
+
+
+.hero-text-box {
+
+	position: absolute;
+	/** we use this property**/
+	top: 50%;
+	/**so we can center the the content of the class hero-text-box and aslo we use transform:translate to move **/
+	left: 50%;
+	width: 1140px;
+
+	/** -50% on the x-axis and -50% on the y-axis**/
+	transform: translate(-50%, -50%);
+	/** -50% on the x-axis and -50% on the y-axis**/
+	border: 1px solid green;
+
+
+
+}
+
+h1 {
+	margin-top: 0;
+	margin-bottom: 20px;
+	color: #fff;
+	font-size: 240%;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	word-spacing: 4px;
+	border: 1px double red;
+
+
+
+}
+
+.btn {
+
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: 300;
+	text-decoration: none;
+	border-radius: 200px;
+
+
+}
+
+.btn-full {
+
+	background: #e67e22;
+	border: 1px solid #e67e22;
+	color: #fff;
+}
+
+.btn-ghost {
+
+	border: 1px solid #e67e22;
+	color: #e67e22;
+}
+
+/*.pic {
+	height: 200px;
+	width: auto;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -246%);
+	border-radius: 20px;
+
+}
+*/
