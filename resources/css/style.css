@@ -68,7 +68,8 @@ h1 {
 
 }
 
-.btn {
+.btn:link,
+.btn:visited {
 
 	display: inline-block;
 	padding: 10px 30px;
@@ -79,7 +80,12 @@ h1 {
 
 }
 
-.btn-full {
+
+
+
+
+.btn-full:link,
+.btn-full:visited {
 
 	background: #e67e22;
 	border: 1px solid #e67e22;
@@ -91,6 +97,14 @@ h1 {
 	border: 1px solid #e67e22;
 	color: #e67e22;
 }
+
+.btn:hover,
+.btn:active {
+	background: #cf6d17;
+}
+
+
+
 
 /*.pic {
 	height: 200px;
